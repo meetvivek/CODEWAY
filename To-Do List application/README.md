@@ -36,6 +36,9 @@ This application requires Python 3.x and the following libraries:
 - `todo_list.py`: The main Python script containing the application logic.
 - `tasks.txt`: A text file used to store the tasks.
 
+## Screenshot
+![Screenshort of the program]([image_url](https://github.com/meetvivek/CODEWAY/blob/63800f174b799ca7630b9cb0dd5a6b7b0a2ed9e6/To-Do%20List%20application/screenshot.png))
+
 ## Contributions
 
 Contributions to this project are welcome! If you would like to contribute, feel free to fork this repository, make your changes, and submit a pull request. Please ensure that your contributions align with the goals and guidelines of this project.
