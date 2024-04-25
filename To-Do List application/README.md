@@ -36,9 +36,6 @@ This application requires Python 3.x and the following libraries:
 - `todo_list.py`: The main Python script containing the application logic.
 - `tasks.txt`: A text file used to store the tasks.
 
-## Screenshot
-![Screenshort of the program](https://github.com/meetvivek/CODEWAY/blob/63800f174b799ca7630b9cb0dd5a6b7b0a2ed9e6/To-Do%20List%20application/screenshot.png)
-
 ## Contributions
 
 Contributions to this project are welcome! If you would like to contribute, feel free to fork this repository, make your changes, and submit a pull request. Please ensure that your contributions align with the goals and guidelines of this project.
@@ -48,3 +45,6 @@ Contributions to this project are welcome! If you would like to contribute, feel
 - The GUI design utilizes images for buttons and a background image for aesthetic purposes. Ensure that the image files are placed in the correct directory (`./icons/`).
 - Ensure proper file permissions for read/write operations to `tasks.txt`.
 - This project can be further extended by adding features such as task prioritization, due dates, and user authentication.
+
+## Screenshot
+![Screenshort of the program](https://github.com/meetvivek/CODEWAY/blob/63800f174b799ca7630b9cb0dd5a6b7b0a2ed9e6/To-Do%20List%20application/screenshot.png)
