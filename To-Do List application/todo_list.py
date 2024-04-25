@@ -4,7 +4,7 @@ from tkinter import messagebox, simpledialog
 
 
 def add_task():
-    task = simpledialog.askstring('Add Task', 'Enter Your Task: ')
+    task = simpledialog.askstring('Add Task', 'Enter Your Task: \t\t\t\t')
     if task is not None and len(task.strip()) > 0:
         listbox_tasks.insert(tk.END, task)
         save_tasks()
@@ -15,7 +15,7 @@ def edit_task():
     try:
         task_index = listbox_tasks.curselection()[0]
         old_task = listbox_tasks.get(task_index)
-        new_task = simpledialog.askstring("Edit Task", "Edit your task:", initialvalue=old_task)
+        new_task = simpledialog.askstring("Edit Task", "Edit your task: \t\t\t\t", initialvalue=old_task)
         if new_task:
             listbox_tasks.delete(task_index)
             listbox_tasks.insert(task_index, new_task)
