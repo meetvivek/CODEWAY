@@ -1,4 +1,4 @@
-# Calculator Project
+# Calculator
 
 This is a simple calculator application built using Python's tkinter library. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division. Additionally, it supports percentage calculations.
 
@@ -49,4 +49,5 @@ Contributions to this project are welcome! If you would like to contribute, feel
 
 ## Screenshot
 ![Screenshort of the program]
+(https://github.com/meetvivek/CODEWAY/blob/e2b6a964707f06dd42553d20d2634ef79a65887c/Calculator/Screenshot.png)
 
