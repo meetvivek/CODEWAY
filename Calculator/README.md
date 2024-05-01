@@ -48,6 +48,5 @@ To use the calculator, simply run the Python script (`calculator.py`). You can p
 Contributions to this project are welcome! If you would like to contribute, feel free to fork this repository, make your changes, and submit a pull request. Please ensure that your contributions align with the goals and guidelines of this project.
 
 ## Screenshot
-![Screenshort of the program]
-(Calculator/Screenshot.png)
+![Screenshort of the program](https://github.com/meetvivek/CODEWAY/blob/2d847b8a85ec29f7310294066b3030e07b3326a0/Calculator/Screenshot.png)
 
