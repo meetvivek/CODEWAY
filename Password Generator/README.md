@@ -38,3 +38,7 @@ To use the password generator and manager:
 
 ## Contributions
 Contributions to this project are welcome! If you would like to contribute, feel free to fork this repository, make your changes, and submit a pull request. Please ensure that your contributions align with the goals and guidelines of this project.
+
+## Screenshot
+![Screenshort of the program](https://github.com/meetvivek/CODEWAY/blob/3e66417e3a2708e60e7add01f78328d96460bfe9/Password%20Generator/Screenshot.png)
+
