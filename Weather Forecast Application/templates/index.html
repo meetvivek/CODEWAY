@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="text-center mt-5 mb-4">Weather Forecast🌞</h1>
+            <form action="/" method="post" class="text-center">
+                <input type="text" name="city" placeholder="Enter city name" class="form-control w-50 d-inline-block">
+                <button type="submit" class="btn btn-primary">Get Weather</button>
+            </form>
+            {% if city %}
+                <div class="weather-info text-center mt-4">
+                    <h2>Weather in {{ city.title() }}</h2>
+                    <p>Temperature: {{ temperature }}°C</p>
+                    <p>Humidity: {{ humidity }}%</p>
+                    <p>Pressure: {{ pressure }} hPa</p>
+                    <p>Description: {{ description.title() }}</p>
+                </div>
+            {% endif %}
+            {% if error_message %}
+                <p class="text-danger text-center">{{ error_message }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
+
+
+
