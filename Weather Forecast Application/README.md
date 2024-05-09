@@ -27,7 +27,9 @@ This is a simple weather forecast web application built using Python and Flask f
 
 ## Screenshots
 
-![Screenshort of the program]()
+![Screenshort of the program](https://github.com/meetvivek/CODEWAY/blob/03320e73672ad1dd61c40e8ac72cf0e5c9e1931a/Weather%20Forecast%20Application/first.png)
+
+![Screenshort of the program](https://github.com/meetvivek/CODEWAY/blob/03320e73672ad1dd61c40e8ac72cf0e5c9e1931a/Weather%20Forecast%20Application/second.png)
 
 ## Contribution
 
