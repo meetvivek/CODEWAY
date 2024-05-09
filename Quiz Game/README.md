@@ -26,8 +26,12 @@ This is a quiz game web application built using Python and Flask framework. It a
 5. Open your web browser and navigate to `http://localhost:5000`.
 
 ## Screenshots
+![Screenshort of the program]([https://github.com/meetvivek/CODEWAY/blob/63800f174b799ca7630b9cb0dd5a6b7b0a2ed9e6/To-Do%20List%20application/screenshot.png](https://github.com/meetvivek/CODEWAY/blob/7c695bb27536a39733b1a19faed13506baa42fe9/Quiz%20Game/first.png))
 
-[Include any relevant screenshots or GIFs of your quiz game application in action.]
+![Screenshort of the program]([[https://github.com/meetvivek/CODEWAY/blob/63800f174b799ca7630b9cb0dd5a6b7b0a2ed9e6/To-Do%20List%20application/screenshot.png](https://github.com/meetvivek/CODEWAY/blob/7c695bb27536a39733b1a19faed13506baa42fe9/Quiz%20Game/first.png)](https://github.com/meetvivek/CODEWAY/blob/7c695bb27536a39733b1a19faed13506baa42fe9/Quiz%20Game/second.png))
+
+![Screenshort of the program]([[https://github.com/meetvivek/CODEWAY/blob/63800f174b799ca7630b9cb0dd5a6b7b0a2ed9e6/To-Do%20List%20application/screenshot.png](https://github.com/meetvivek/CODEWAY/blob/7c695bb27536a39733b1a19faed13506baa42fe9/Quiz%20Game/first.png)](https://github.com/meetvivek/CODEWAY/blob/7c695bb27536a39733b1a19faed13506baa42fe9/Quiz%20Game/third.png))
+
 
 ## Contribution
 
