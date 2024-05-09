@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1 id="quiz_heading"><b>{{ category_name }} Quiz</b></h1>
+    <hr>
+    <form action="/submit_quiz" method="post">
+        {% for question in questions %}
+        <b><p>{{ question['question'] }}</p></b>
+        {% for option in question['options'] %}
+        <input type="radio" name="{{ question['question'] }}" value="{{ option }}"> {{ option }}<br>
+        {% endfor %}
+        <input type="hidden" name="{{ question['question'] }}_correct" value="{{ question['correct_answer'] }}">
+        <br>
+        {% endfor %}
+        <input type="submit" value="SUBMIT">
+    </form>
+</div>
+<script>
+    if(performance.navigation.type == 2){
+   location.reload(true);
+}
+</script>
+</body>
+</html>
