@@ -4,11 +4,11 @@ Welcome to the CodeWay Internship Projects repository! This repository contains 
 
 ## Project List
 
-1. **To-Do List**: A simple to-do list application developed using Python and Flask. It allows users to add, delete, and update tasks, helping them stay organized and productive.
+1. **To-Do List**: A simple to-do list application developed using Python and TKinter. It allows users to add, delete, and update tasks, helping them stay organized and productive.
 
 2. **Calculator**: A simple calculator application built using Python's tkinter library. It allows users to perform basic arithmetic operations.
 
-3. **Password Generator and Manager**: A secure password generator and manager application developed with Python and Flask. Users can generate strong passwords and securely store them alongside website details.
+3. **Password Generator and Manager**: A secure password generator and manager application developed with Python and TKinter. Users can generate strong passwords and securely store them alongside website details.
 
 4. **Weather Forecast Application**: A weather forecast web application built with Python and Flask. It retrieves real-time weather data from the OpenWeatherMap API based on user input.
 
